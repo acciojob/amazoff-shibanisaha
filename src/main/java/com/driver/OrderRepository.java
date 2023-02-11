@@ -103,7 +103,6 @@ public class OrderRepository {
             for(String e: OrderPartnerPairDB.get(partnerId)){
                 t = OrderDB.get(e).getDeliveryTime();
             }
-
         }
         String hr = Integer.toString(t/60);
         String mn = Integer.toString(t%60);

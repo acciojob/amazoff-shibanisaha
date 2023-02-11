@@ -13,6 +13,9 @@ public class Order {
         //deliveryTime  = HH*60 + MM
     }
 
+    public Order() {
+    }
+
     public void setId(String id) {
         this.id = id;
     }
